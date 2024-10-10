@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Yessine's Portfolio</h1>
+        </div>
+    </header>
+
+    <section id="about" class="fade-in">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Yessine, a passionate web developer from Tunisia with 2 years of experience. I specialize in modern web technologies and love to create interactive web applications.</p>
+            <button id="downloadCV">Download CV</button>
+        </div>
+    </section>
+
+    <section id="projects" class="slide-in">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item hover-grow">
+                    <h3>fatigue managment</h3>
+                    <p>A web app built with React, demonstrating state management and API integration.</p>
+                    <a href="https://effortless-tiramisu-c16929.netlify.app" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="project-item hover-grow">
+                    <h3>Online Store</h3>
+                    <p>A fully functional online store built with HTML, CSS, and JavaScript. Users can browse products, add them to a cart, and check out.</p>
+                    <a href="https://spontaneous-otter-ab43d5.netlify.app" class="btn" target="_blank">View Project</a>
+                  </div>
+                <div class="project-item hover-grow">
+                    <h3>drone detector</h3>
+                    <p>This mobile-responsive website showcases my personal work.</p>
+                    <a href="https://spontaneous-otter-ab43d5.netlify.app" class="btn" target="_blank">View Project</a>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h4>HTML5</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 97%;" data-skill="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>CSS3</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 78%;" data-skill="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>JavaScript</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;" data-skill="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>React</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 71%;" data-skill="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>python</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;" data-skill="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>java</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 65%;" data-skill="75"></div>
+                </div>
+                </div>
+                <div class="skill-item">
+                    <h4>django</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%;" data-skill="75"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out via phone or email.</p>
+            <p>Phone: <a href="tel:+21652006320">+216 5200 6320</a></p>
+            <p>Email: <a href="mailto:Yessinebrini@gmail.com">Yessinebrini@gmail.com</a></p>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p id="formMessage"></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yessine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
